@@ -1,0 +1,20 @@
+Socket.IO chat example
+
+1. Installation
+
+``` 
+git clone https://github.com/Mshivam2409/chat 
+cd chat
+npm install 
+``` 
+
+2. Testing
+
+- Start the App.
+
+``` 
+node index.js
+``` 
+
+- Open http://localhost:3000 and check network tab for sucessful websocket connection.
+- Any messages sent through the web page should show up in websocket instead of HTTP Polling.
